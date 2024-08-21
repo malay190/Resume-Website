@@ -22,6 +22,7 @@ body{
 p, span, li{
     color: var(--secondaryTextColor);
     font-size: 1em;
+    text-align: justify;
 }
 
 a{
@@ -71,6 +72,10 @@ li{
     justify-content: space-between;
     column-gap: 1em;
     flex-wrap: wrap;
+    border:2px;
+    padding: 10px;
+    background-color:rgb(186, 186, 186);
+    border-radius: 30px;
 }
 
 #socials--list a{
@@ -84,4 +89,54 @@ li{
     font-weight: 100;
     color: var(--mainLinkColor);
     font-size: 0.9em;
+}
+
+.Skills--category table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.Skills--category td {
+    padding: 8px; 
+    vertical-align: top; 
+    font-size: 18px; 
+    color: var(--secondaryTextColor); 
+}
+
+
+.Skills--category .highlight {
+    font-weight: bold;
+}
+
+
+.Skills--category td {
+    border: 1px solid #ddd; 
+}
+
+
+.Skills--category .highlight {
+    background-color: #f4f4f4; 
+    padding: 10px; 
+}
+
+#college{
+    margin-bottom: 10px;
+}
+
+#degree p {
+    margin-top: 10px; 
+}
+
+#company--name{
+    margin-bottom: 4px;
+}
+
+#company--profile{
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+#company--location {
+    margin-top: 0px;
 }
